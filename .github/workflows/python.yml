@@ -18,5 +18,11 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Show Current Directory
+        run: pwd
+
+      - name: List Files
+        run: ls -la
+
       - name: Run Program
         run: python app.py
